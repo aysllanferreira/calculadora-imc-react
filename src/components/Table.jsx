@@ -1,8 +1,10 @@
 import React from 'react';
+import './Table.scss';
+
 // Tabela IMC
 const Table = () => {
   return (
-    <table>
+    <table className="Table">
       <thead>
         <tr>
           <th>IMC</th>
