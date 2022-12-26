@@ -12,7 +12,7 @@ const Resultado = () => {
 
   useEffect(() => {
     switch (true) {
-      case imc < 18.5:
+      case imc < 18.5 && imc > 0:
         setSituation({
           status: true,
           message: 'Abaixo do peso',
